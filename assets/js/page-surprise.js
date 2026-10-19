@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const open=()=>{document.querySelector('#surprise-content').classList.add('revealed');document.querySelector('#envelope').setAttribute('aria-expanded','true');Keep.toast('惊喜已经打开')};document.querySelector('#envelope').onclick=open;document.querySelector('#envelope').onkeydown=e=>{if(e.key==='Enter'||e.key===' ')open()}});

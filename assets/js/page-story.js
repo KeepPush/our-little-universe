@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const items=document.querySelectorAll('.timeline-item');if('IntersectionObserver' in window){const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.style.animation='rise .7s ease both';io.unobserve(e.target)}}),{threshold:.18});items.forEach(x=>io.observe(x))}});

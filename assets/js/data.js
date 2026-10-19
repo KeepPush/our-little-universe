@@ -1,0 +1,9 @@
+window.KEEP_DATA={
+  couple:{a:'张冠湘',b:'丁洁瑜',title:'两个人的小宇宙',anniversary:null},
+  memories:[{date:'待填写',title:'第一段回忆',text:'把你们想保存的故事放在这里。',tag:'故事'}],
+  anniversaries:[{name:'我们的纪念日',date:null,repeat:true},{name:'下一次想一起庆祝的日子',date:null,repeat:false}],
+  goals:[{id:'g1',title:'一起完成一件重要的事',detail:'填写你们共同想达成的目标。',progress:35},{id:'g2',title:'把想去的地方写进地图',detail:'从一个目的地开始。',progress:15}],
+  plans:[{id:'p1',text:'整理一份共同愿望清单',category:'共同计划',priority:'重要',done:false},{id:'p2',text:'挑选一张想长期保存的照片',category:'回忆',priority:'普通',done:false}],
+  rules:[{id:'r1',text:'重要的决定，留给两个人一起确认。',confirmed:false,updated:'首版演示'}],
+  activities:['一起看一部想看的电影','为对方准备一份小惊喜','把最近的一张照片写进时间轴','一起规划下一次出行','给对方写一段只属于你们的话']
+};
